@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.App{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inc-exp-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+    height: 80px;
+    align-items: center;
+}
+.inc-exp-container .income{
+    width: 50%;
+    border-right: 1px solid #000;
+}
+.income p{
+    color: green;
+}
+.expense{
+    width: 50%;
+}
+.expense p{
+    color: red;
+}
+
+.Lists{
+    margin-top: 30px;
+}
+
+.Lists .minus, 
+.Lists .income{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    height: 30px;
+    align-items: center;
+    padding: 5px;
+    border-right: 5px solid red;
+}
+
+.Lists .income{
+    border-right: 5px solid green;
+
+}
+
+.text{
+    margin-top: 30px;
+}
+
+.text h3{
+    margin-top: 10px;
+}
+
+.form-control{
+    margin-top: 10px;
+    align-items: center;
+}
+.form-control input{
+    width: 270px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+    background: rgb(83, 18, 83);
+    color: #fff;
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+}
